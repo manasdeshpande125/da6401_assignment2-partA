@@ -79,7 +79,7 @@ show_predictions(model, test_loader, test_classes)
 ```
 ---
 ## Wandb Report Link:
-https://api.wandb.ai/links/manasdeshpande4902-iit-madras/hxjbuexn
+https://api.wandb.ai/links/cs24m024-iit-madras/cboyyrhf
 
 
 ---
