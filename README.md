@@ -77,5 +77,13 @@ model = train_CNN_lightning(
 
 show_predictions(model, test_loader, test_classes)
 ```
+---
+## Wandb Report Link:
+https://api.wandb.ai/links/manasdeshpande4902-iit-madras/hxjbuexn
+
+
+---
+## Way to run train.py
+!python train.py --wandb_entity "cs24m024-iit-madras" --wandb_project "da6401-assignment-2" --epochs 30 --batch_count 32 --filter_mode "dec_inc" --act_str "Mish" --data_aug 'y' --batch_norm 'n' --drop 'y' --optimizer_name "nadam" --lr_rate 0.0005 --drop_value 0.3 --kernel_sizes 5 5 3 3 3
 
 
